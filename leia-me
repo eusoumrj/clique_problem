@@ -1,0 +1,71 @@
+Explicação de funcionamento do código;
+
+Bron-Kerbosch (sem pivô):
+1. Entrar na pasta lista2/Bron-Kerbosch/sem_pivot
+2. Rodar o comando "java MaximalCliquesWithoutPivot"
+Caso haja necessidade de alterar o arquivo, alterar o "teste2.txt", pode alterar o arquivo também no código fonte.
+
+- O txt está da seguinte forma:
+primeira linha: apenas o número 1
+segunda linha: número de vértices
+terceira linha: número de arestas
+quarta linha em diante: ligações dos vertices, apenas uma ligação por linha
+Ex:
+1
+8
+10
+0 1
+0 2
+1 3
+1 4
+2 3
+3 4
+3 5
+5 6
+5 7
+6 7
+
+
+Bron-Kerbosch (com pivô):
+1. Entrar na pasta lista2/Bron-Kerbosch/com_pivot
+2. Rodar o comando "java MaximalCliquesWithPivot"
+Caso haja necessidade de alterar o arquivo, alterar o "teste2.txt", pode alterar o arquivo também no código fonte.
+
+- O txt está da seguinte forma:
+primeira linha: apenas o número 1
+segunda linha: número de vértices
+terceira linha: número de arestas
+quarta linha em diante: ligações dos vertices, apenas uma ligação por linha
+Ex: 
+1
+8
+10
+0 1
+0 2
+1 3
+1 4
+2 3
+3 4
+3 5
+5 6
+5 7
+6 7
+
+CliqueSolver:
+1. Entrar na pasta lista2/forca-bruta
+2. Rodar o comando "java cliqueSolver.Main"
+Caso haja a necessidade de alterar o arquivo, alterar o "graph.txt"
+
+- O txt está da seguinte forma:
+Tabela NxN onde as ligações estão setadas com 1 e onde não se liga está 0
+Ex:
+0 0 0 1 0 0 0
+0 0 0 1 1 1 0
+0 0 0 1 0 0 0
+1 1 1 0 1 0 1
+0 1 0 1 0 1 1
+0 1 0 0 1 0 1
+0 0 0 1 1 1 0
+
+
+OBS: O VERTICE DO CLIQUESOLVER COMEÇA DO 1 
